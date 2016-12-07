@@ -34,6 +34,16 @@
                     "type": "boolean",
                     "default": true,
                     "description": "Display or hide the status bar smiley face."
+                },
+                "theme.statusbar.background.color": {
+                    "type": "string",
+                    "default": "#007acc",
+                    "description": "The status bar background color."
+                },
+                "theme.statusbar.text.color": {
+                    "type": "string",
+                    "default": "#fff",
+                    "description": "The status bar text color."
                 }
             }
         }
