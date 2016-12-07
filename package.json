@@ -19,11 +19,11 @@
         "commands": [
             {
                 "command": "theme.apply",
-                "title": "Custom theme : apply"
+                "title": "Custom theme : Apply"
             },
             {
                 "command": "theme.reset",
-                "title": "Custom theme : reset"
+                "title": "Custom theme : Reset"
             }
         ],
         "configuration": {

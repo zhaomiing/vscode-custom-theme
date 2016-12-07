@@ -5,7 +5,6 @@ const theme = require('./lib/theme')
 
 function activate(context) {
     const apply = vscode.commands.registerCommand('theme.apply', function () {
-        theme.register()
         theme.apply()
     })
     context.subscriptions.push(apply)
