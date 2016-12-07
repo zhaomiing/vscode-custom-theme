@@ -30,10 +30,10 @@
             "type": "object",
             "title": "Custom theme configuration",
             "properties": {
-                "theme.smiley.enabled": {
-                    "type": "boolean",
-                    "default": true,
-                    "description": "Display or hide the status bar smiley face."
+                "theme.activitybar.background.color": {
+                    "type": "string",
+                    "default": "#333",
+                    "description": "The activity bar background color."
                 },
                 "theme.statusbar.background.color": {
                     "type": "string",
@@ -44,6 +44,11 @@
                     "type": "string",
                     "default": "#fff",
                     "description": "The status bar text color."
+                },
+                "theme.smiley.enabled": {
+                    "type": "boolean",
+                    "default": true,
+                    "description": "Display or hide the status bar smiley face."
                 }
             }
         }
