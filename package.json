@@ -11,7 +11,8 @@
         "Other"
     ],
     "activationEvents": [
-        "*"
+        "onCommand:theme.apply",
+        "onCommand:theme.reset"
     ],
     "main": "./extension",
     "contributes": {
@@ -19,6 +20,10 @@
             {
                 "command": "theme.apply",
                 "title": "Custom theme : apply"
+            },
+            {
+                "command": "theme.reset",
+                "title": "Custom theme : reset"
             }
         ],
         "configuration": {
