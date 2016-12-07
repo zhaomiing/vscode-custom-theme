@@ -1,0 +1,47 @@
+{
+    "name": "vscode-custom-theme",
+    "displayName": "vscode-custom-theme",
+    "description": "Customize your vscode experience",
+    "version": "1.0.0",
+    "publisher": "bentx",
+    "engines": {
+        "vscode": "^1.5.0"
+    },
+    "categories": [
+        "Other"
+    ],
+    "activationEvents": [
+        "onCommand:theme.apply"
+    ],
+    "main": "./extension",
+    "contributes": {
+        "commands": [
+            {
+                "command": "theme.apply",
+                "title": "Custom theme : apply"
+            }
+        ],
+        "configuration": {
+            "type": "object",
+            "title": "Custom theme configuration",
+            "properties": {
+                "theme.smiley.enabled": {
+                    "type": "boolean",
+                    "default": true,
+                    "description": "Display or hide the status bar smiley face."
+                }
+            }
+        }
+    },
+    "scripts": {
+        "postinstall": "node ./node_modules/vscode/bin/install"
+    },
+    "devDependencies": {
+        "typescript": "^2.0.3",
+        "vscode": "^1.0.0",
+        "mocha": "^2.3.3",
+        "eslint": "^3.6.0",
+        "@types/node": "^6.0.40",
+        "@types/mocha": "^2.2.32"
+    }
+}
