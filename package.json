@@ -11,7 +11,7 @@
         "Other"
     ],
     "activationEvents": [
-        "onCommand:theme.apply"
+        "*"
     ],
     "main": "./extension",
     "contributes": {
