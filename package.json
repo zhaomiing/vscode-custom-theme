@@ -35,6 +35,11 @@
                     "default": "#333",
                     "description": "The activity bar background color."
                 },
+                "theme.filetree.background.color": {
+                    "type": "string",
+                    "default": "#252526",
+                    "description": "The file tree background color."
+                },
                 "theme.statusbar.background.color": {
                     "type": "string",
                     "default": "#007acc",
