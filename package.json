@@ -40,6 +40,11 @@
                     "default": "#252526",
                     "description": "The file tree background color."
                 },
+                "theme.tabs.toolbox.background.color": {
+                    "type": "string",
+                    "default": "#252526",
+                    "description": "The tabs toolbox background color (top right bar)."
+                },
                 "theme.statusbar.background.color": {
                     "type": "string",
                     "default": "#007acc",
