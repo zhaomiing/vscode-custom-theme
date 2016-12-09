@@ -40,6 +40,16 @@
                     "default": "#252526",
                     "description": "The file tree background color."
                 },
+                "theme.tabs.background.color": {
+                    "type": "string",
+                    "default": "#252526",
+                    "description": "The tabs background color (inactive only, active one inherits from your theme)."
+                },
+                "theme.tabs.border.color": {
+                    "type": "string",
+                    "default": "#252526",
+                    "description": "The tabs border color."
+                },
                 "theme.tabs.toolbox.background.color": {
                     "type": "string",
                     "default": "#252526",
