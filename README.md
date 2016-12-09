@@ -17,14 +17,19 @@ Type `cmd-shift-p` to launch command palette and choose one of these commands :
 
 This extension contributes the following settings:
 
-* `theme.activitybar.background.color`: The activity bar background color.
-* `theme.filetree.background.color`: The file tree background color.
-* `theme.tabs.background.color`: The tabs background color (inactive only, active one inherits from your syntax theme).
-* `theme.tabs.border.color`: The tabs border color.
-* `theme.tabs.toolbox.background.color`: The tabs toolbox background color (top right bar).
+* `theme.dark.activitybar.background.color`: The activity bar background color (dark theme).
+* `theme.light.activitybar.background.color`: The activity bar background color (light theme).
+* `theme.dark.filetree.background.color`: The file tree background color (dark theme).
+* `theme.light.filetree.background.color`: The file tree background color (light theme).
+* `theme.dark.tabs.background.color`: The tabs background color (dark theme).
+* `theme.light.tabs.background.color`: The tabs background color (light theme).
+* `theme.dark.tabs.border.color`: The tabs border color (dark theme).
+* `theme.light.tabs.border.color`: The tabs border color (light theme).
+* `theme.dark.tabs.toolbox.background.color`: The tabs toolbox background color (top right bar, dark theme).
+* `theme.light.tabs.toolbox.background.color`: The tabs toolbox background color (top right bar, light theme).
 * `theme.statusbar.background.color`: The status bar background color.
 * `theme.statusbar.text.color`: The status bar text color.
-* `theme.smiley.enabled`: Display or hide the status bar smiley face.
+* `theme.statusbar.smiley.enabled`: Display or hide the status bar smiley face.
 
 ## Release Notes
 
