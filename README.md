@@ -7,6 +7,12 @@ Customize your [Visual Studio Code](https://code.visualstudio.com/) experience
 ## Installation
 Type `cmd-shift-p` to launch command palette and choose `Extensions: Install Extension`. Search this package and install.
 
+### On linux
+A permission tweak is needed, you'll need to run this in your terminal :
+```sh
+sudo chown -R $(whoami) /usr/share/code
+```
+
 ## Usage
 Type `cmd-shift-p` to launch command palette and choose one of these commands :
 
