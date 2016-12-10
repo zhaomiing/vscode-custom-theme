@@ -1,6 +1,6 @@
 # Custom theme for Visual Studio Code
 
-Customize your [Visual Studio Code](https://code.visualstudio.com/) experience
+Customize your [Visual Studio Code](https://code.visualstudio.com/) experience, use your own colors.
 
 ![vscode custom theme](./images/screen.gif)
 
