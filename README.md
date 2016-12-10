@@ -34,6 +34,8 @@ This extension contributes the following settings:
 * `theme.dark.tabs.toolbox.background.color`: The tabs toolbox background color (top right bar, dark theme).
 * `theme.light.tabs.toolbox.background.color`: The tabs toolbox background color (top right bar, light theme).
 * `theme.statusbar.background.color`: The status bar background color.
+* `theme.statusbar.backgroundRaw.color`: The status bar background color (no project).
+* `theme.statusbar.backgroundDebug.color`: The status bar background color (debug mode).
 * `theme.statusbar.text.color`: The status bar text color.
 * `theme.statusbar.smiley.enabled`: Display or hide the status bar smiley face.
 

@@ -85,6 +85,16 @@
                     "default": "#007acc",
                     "description": "The status bar background color."
                 },
+                "theme.statusbar.backgroundRaw.color": {
+                    "type": "string",
+                    "default": "#68217a",
+                    "description": "The status bar background color (no project)."
+                },
+                "theme.statusbar.backgroundDebug.color": {
+                    "type": "string",
+                    "default": "#c63",
+                    "description": "The status bar background color (debug mode)."
+                },
                 "theme.statusbar.text.color": {
                     "type": "string",
                     "default": "#fff",
