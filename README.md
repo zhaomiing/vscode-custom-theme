@@ -7,7 +7,10 @@ Customize your [Visual Studio Code](https://code.visualstudio.com/) experience
 ## Installation
 Type `cmd-shift-p` to launch command palette and choose `Extensions: Install Extension`. Search this package and install.
 
-### On linux
+### On Windows
+You will need to run Visual Studio Code as Administrator before you apply your theme, after that you can re-open it with normal privileges.
+
+### On Linux
 A permission tweak is needed, you'll need to run this in your terminal :
 ```sh
 sudo chown -R $(whoami) /usr/share/code
