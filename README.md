@@ -24,6 +24,8 @@ Type `cmd-shift-p` to launch command palette and choose one of these commands :
 
 ## Extension Settings
 
+The menu under File > Preferences (Code > Preferences on Mac) provides entries to configure user and workspace settings. 
+
 This extension contributes the following settings:
 
 * `theme.dark.activitybar.background.color`: The activity bar background color (dark theme).
