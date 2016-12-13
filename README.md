@@ -1,5 +1,7 @@
 # Custom theme for Visual Studio Code
 
+[![Build Status](https://travis-ci.org/bentx/vscode-custom-theme.svg?branch=master)](https://travis-ci.org/bentx/vscode-custom-theme)
+
 Customize your [Visual Studio Code](https://code.visualstudio.com/) experience, use your own colors.
 
 ![vscode custom theme](./images/screen.gif)
