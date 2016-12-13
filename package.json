@@ -1,139 +1,141 @@
 {
-  "name": "vscode-custom-theme",
-  "displayName": "Custom theme for Visual Studio Code",
-  "description": "Customize your vscode experience",
-  "version": "1.0.1",
-  "publisher": "bentx",
-  "engines": {
-    "vscode": "^1.5.0"
-  },
-  "categories": [
-    "Other"
-  ],
-  "keywords": [
-    "custom",
-    "theme",
-    "color"
-  ],
-  "icon": "images/icon.png",
-  "license": "MIT",
-  "bugs": { "url": "https://github.com/bentx/vscode-custom-theme/issues" },
-  "homepage": "https://github.com/bentx/vscode-custom-theme/blob/master/README.md",
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/bentx/vscode-custom-theme.git"
-  },
-  "activationEvents": [
-    "onCommand:theme.apply",
-    "onCommand:theme.reset"
-  ],
-  "main": "./extension",
-  "contributes": {
-    "commands": [
-      {
-        "command": "theme.apply",
-        "title": "Custom theme : Apply"
-      },
-      {
-        "command": "theme.reset",
-        "title": "Custom theme : Reset"
-      }
+    "name": "vscode-custom-theme",
+    "displayName": "Custom theme for Visual Studio Code",
+    "description": "Customize your vscode experience",
+    "version": "1.0.2",
+    "publisher": "bentx",
+    "engines": {
+        "vscode": "^1.5.0"
+    },
+    "categories": [
+        "Other"
     ],
-    "configuration": {
-      "type": "object",
-      "title": "Custom theme configuration",
-      "properties": {
-        "theme.dark.activitybar.background.color": {
-          "type": "string",
-          "default": "#333",
-          "description": "The activity bar background color (dark theme)."
-        },
-        "theme.light.activitybar.background.color": {
-          "type": "string",
-          "default": "#2c2c2c",
-          "description": "The activity bar background color (light theme)."
-        },
-        "theme.dark.filetree.background.color": {
-          "type": "string",
-          "default": "#252526",
-          "description": "The file tree background color (dark theme)."
-        },
-        "theme.light.filetree.background.color": {
-          "type": "string",
-          "default": "#f3f3f3",
-          "description": "The file tree background color (light theme)."
-        },
-        "theme.dark.tabs.background.color": {
-          "type": "string",
-          "default": "#252526",
-          "description": "The tabs background color (dark theme)."
-        },
-        "theme.light.tabs.background.color": {
-          "type": "string",
-          "default": "#ececec",
-          "description": "The tabs background color (light theme)."
-        },
-        "theme.dark.tabs.border.color": {
-          "type": "string",
-          "default": "#252526",
-          "description": "The tabs border color (dark theme)."
-        },
-        "theme.light.tabs.border.color": {
-          "type": "string",
-          "default": "#ddd",
-          "description": "The tabs border color (light theme)."
-        },
-        "theme.dark.tabs.toolbox.background.color": {
-          "type": "string",
-          "default": "#252526",
-          "description": "The tabs toolbox background color (top right bar, dark theme)."
-        },
-        "theme.light.tabs.toolbox.background.color": {
-          "type": "string",
-          "default": "#f3f3f3",
-          "description": "The tabs toolbox background color (top right bar, light theme)."
-        },
-        "theme.statusbar.background.color": {
-          "type": "string",
-          "default": "#007acc",
-          "description": "The status bar background color."
-        },
-        "theme.statusbar.backgroundRaw.color": {
-          "type": "string",
-          "default": "#68217a",
-          "description": "The status bar background color (no project)."
-        },
-        "theme.statusbar.backgroundDebug.color": {
-          "type": "string",
-          "default": "#c63",
-          "description": "The status bar background color (debug mode)."
-        },
-        "theme.statusbar.text.color": {
-          "type": "string",
-          "default": "#fff",
-          "description": "The status bar text color."
-        },
-        "theme.statusbar.smiley.enabled": {
-          "type": "boolean",
-          "default": true,
-          "description": "Display or hide the status bar smiley face."
+    "keywords": [
+        "custom",
+        "theme",
+        "color"
+    ],
+    "icon": "images/icon.png",
+    "license": "MIT",
+    "bugs": {
+        "url": "https://github.com/bentx/vscode-custom-theme/issues"
+    },
+    "homepage": "https://github.com/bentx/vscode-custom-theme/blob/master/README.md",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/bentx/vscode-custom-theme.git"
+    },
+    "activationEvents": [
+        "onCommand:theme.apply",
+        "onCommand:theme.reset"
+    ],
+    "main": "./extension",
+    "contributes": {
+        "commands": [
+            {
+                "command": "theme.apply",
+                "title": "Custom theme : Apply"
+            },
+            {
+                "command": "theme.reset",
+                "title": "Custom theme : Reset"
+            }
+        ],
+        "configuration": {
+            "type": "object",
+            "title": "Custom theme configuration",
+            "properties": {
+                "theme.dark.activitybar.background.color": {
+                    "type": "string",
+                    "default": "#333",
+                    "description": "The activity bar background color (dark theme)."
+                },
+                "theme.light.activitybar.background.color": {
+                    "type": "string",
+                    "default": "#2c2c2c",
+                    "description": "The activity bar background color (light theme)."
+                },
+                "theme.dark.filetree.background.color": {
+                    "type": "string",
+                    "default": "#252526",
+                    "description": "The file tree background color (dark theme)."
+                },
+                "theme.light.filetree.background.color": {
+                    "type": "string",
+                    "default": "#f3f3f3",
+                    "description": "The file tree background color (light theme)."
+                },
+                "theme.dark.tabs.background.color": {
+                    "type": "string",
+                    "default": "#252526",
+                    "description": "The tabs background color (dark theme)."
+                },
+                "theme.light.tabs.background.color": {
+                    "type": "string",
+                    "default": "#ececec",
+                    "description": "The tabs background color (light theme)."
+                },
+                "theme.dark.tabs.border.color": {
+                    "type": "string",
+                    "default": "#252526",
+                    "description": "The tabs border color (dark theme)."
+                },
+                "theme.light.tabs.border.color": {
+                    "type": "string",
+                    "default": "#ddd",
+                    "description": "The tabs border color (light theme)."
+                },
+                "theme.dark.tabs.toolbox.background.color": {
+                    "type": "string",
+                    "default": "#252526",
+                    "description": "The tabs toolbox background color (top right bar, dark theme)."
+                },
+                "theme.light.tabs.toolbox.background.color": {
+                    "type": "string",
+                    "default": "#f3f3f3",
+                    "description": "The tabs toolbox background color (top right bar, light theme)."
+                },
+                "theme.statusbar.background.color": {
+                    "type": "string",
+                    "default": "#007acc",
+                    "description": "The status bar background color."
+                },
+                "theme.statusbar.backgroundRaw.color": {
+                    "type": "string",
+                    "default": "#68217a",
+                    "description": "The status bar background color (no project)."
+                },
+                "theme.statusbar.backgroundDebug.color": {
+                    "type": "string",
+                    "default": "#c63",
+                    "description": "The status bar background color (debug mode)."
+                },
+                "theme.statusbar.text.color": {
+                    "type": "string",
+                    "default": "#fff",
+                    "description": "The status bar text color."
+                },
+                "theme.statusbar.smiley.enabled": {
+                    "type": "boolean",
+                    "default": true,
+                    "description": "Display or hide the status bar smiley face."
+                }
+            }
         }
-      }
+    },
+    "scripts": {
+        "compile": "tsc -watch -p ./",
+        "postinstall": "node ./node_modules/vscode/bin/install",
+        "test": "node ./node_modules/vscode/bin/test"
+    },
+    "devDependencies": {
+        "@types/mocha": "^2.2.32",
+        "@types/node": "^6.0.40",
+        "chai": "^3.5.0",
+        "eslint": "^3.6.0",
+        "mocha": "^2.3.3",
+        "rewire": "^2.5.2",
+        "typescript": "^2.0.3",
+        "vscode": "^1.0.0"
     }
-  },
-  "scripts": {
-    "compile": "tsc -watch -p ./",
-    "postinstall": "node ./node_modules/vscode/bin/install",
-    "test": "node ./node_modules/vscode/bin/test"
-  },
-  "devDependencies": {
-    "@types/mocha": "^2.2.32",
-    "@types/node": "^6.0.40",
-    "chai": "^3.5.0",
-    "eslint": "^3.6.0",
-    "mocha": "^2.3.3",
-    "rewire": "^2.5.2",
-    "typescript": "^2.0.3",
-    "vscode": "^1.0.0"
-  }
 }
