@@ -24,6 +24,8 @@ Type `cmd-shift-p` to launch command palette and choose one of these commands :
 - `Custom theme : Apply`. It will apply the current theme as defined in your settings, check the `Extension Settings` section for more details.
 - `Custom theme : Reset`. It will reset to the original Visual Studio Code theme.
 
+Note : Visual Studio Code performs an integrity check everytime it starts, and will switch to `[Unsupported]` mode if the installation has been patched (as this extension does). If you wish to disable the integrity check you can set the `theme.integrity.enabled` setting to `false` (see below), but please be responsible with this, and re-enable it everytime you post a screenshot regarding an issue, so the Visual Studio Code team knows you're using an unsupported version.
+
 ## Extension Settings
 
 The menu under File > Preferences (Code > Preferences on Mac) provides entries to configure user and workspace settings. 
@@ -45,6 +47,7 @@ This extension contributes the following settings:
 * `theme.statusbar.backgroundDebug.color`: The status bar background color (debug mode).
 * `theme.statusbar.text.color`: The status bar text color.
 * `theme.statusbar.smiley.enabled`: Display or hide the status bar smiley face.
+* `theme.integrity.enabled`: Enable or disable the VS code integrity check ([Unsupported] mode).
 
 ## Release Notes
 

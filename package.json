@@ -2,7 +2,7 @@
     "name": "vscode-custom-theme",
     "displayName": "Custom theme for Visual Studio Code",
     "description": "Customize your vscode experience",
-    "version": "1.0.3",
+    "version": "1.0.4",
     "publisher": "bentx",
     "engines": {
         "vscode": "^1.5.0"
@@ -119,6 +119,11 @@
                     "type": "boolean",
                     "default": true,
                     "description": "Display or hide the status bar smiley face."
+                },
+                "theme.integrity.enabled": {
+                    "type": "boolean",
+                    "default": true,
+                    "description": "Enable or disable the VS code integrity check ([Unsupported] mode)."
                 }
             }
         }
