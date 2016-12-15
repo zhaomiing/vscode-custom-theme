@@ -26,7 +26,7 @@ suite('Extension Tests', function () {
     })
     test('Tabs can be themed', function () {
         assert.equal(before(), 0, 'Workbench css does not contains the patched color')
-        assert.equal(after('_setTabs'), 10, 'Workbench css contains 10 elements with the patched color')
+        assert.equal(after('_setTabs'), 8, 'Workbench css contains 8 elements with the patched color')
     })
     test('Status bar can be themed', function () {
         assert.equal(before(), 0, 'Workbench css does not contains the patched color')

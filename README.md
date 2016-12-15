@@ -58,3 +58,7 @@ Initial release
 ### 1.0.3
 
 Add support for [Visual Studio Code Insiders](https://code.visualstudio.com/insiders/)
+
+### 1.0.7
+
+Add support for Visual Studio Code 1.8
