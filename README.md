@@ -62,3 +62,7 @@ Add support for [Visual Studio Code Insiders](https://code.visualstudio.com/insi
 ### 1.0.7
 
 Add support for Visual Studio Code 1.8
+
+### 1.0.8
+
+Maintain support for Visual Studio Code 1.7 and below
