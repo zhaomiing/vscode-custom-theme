@@ -2,7 +2,7 @@
     "name": "vscode-custom-theme",
     "displayName": "Custom theme for Visual Studio Code",
     "description": "Customize your vscode experience",
-    "version": "1.0.7",
+    "version": "1.0.8",
     "publisher": "bentx",
     "engines": {
         "vscode": "^1.5.0"
