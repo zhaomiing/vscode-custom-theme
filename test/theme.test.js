@@ -30,7 +30,7 @@ suite('Extension Tests', function () {
     })
     test('Status bar can be themed', function () {
         assert.equal(before(), 0, 'Workbench css does not contains the patched color')
-        assert.equal(after('_setStatusbar'), 4, 'Workbench css contains 4 elements with the patched color')
+        assert.equal(after('_setStatusbar'), 9, 'Workbench css contains 9 elements with the patched color')
     })
     test('Feedback smiley can be patched', function () {
         assert.include([
