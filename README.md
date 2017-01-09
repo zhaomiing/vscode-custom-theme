@@ -71,6 +71,6 @@ Maintain support for Visual Studio Code 1.7 and below
 
 Add support for statusbar icons color (match text color)
 
-### 1.1.0
+### 1.1.1
 
 Fixed minor issues
