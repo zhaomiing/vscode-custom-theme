@@ -45,7 +45,7 @@ This extension contributes the following settings:
 * `theme.statusbar.background.color`: The status bar background color.
 * `theme.statusbar.backgroundRaw.color`: The status bar background color (no project).
 * `theme.statusbar.backgroundDebug.color`: The status bar background color (debug mode).
-* `theme.statusbar.text.color`: The status bar text color.
+* `theme.statusbar.text.color`: The status bar text color (will be applied to icons as well).
 * `theme.statusbar.smiley.enabled`: Display or hide the status bar smiley face.
 * `theme.integrity.enabled`: Enable or disable the VS code integrity check ([Unsupported] mode).
 
@@ -66,3 +66,7 @@ Add support for Visual Studio Code 1.8
 ### 1.0.8
 
 Maintain support for Visual Studio Code 1.7 and below
+
+### 1.0.9
+
+Add support for statusbar icons color (match text color)
