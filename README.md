@@ -36,16 +36,19 @@ This extension contributes the following settings:
 * `theme.light.activitybar.background.color`: The activity bar background color (light theme).
 * `theme.dark.filetree.background.color`: The file tree background color (dark theme).
 * `theme.light.filetree.background.color`: The file tree background color (light theme).
+* `theme.filetree.font.size`: The file tree font size.
 * `theme.dark.tabs.background.color`: The tabs background color (dark theme).
 * `theme.light.tabs.background.color`: The tabs background color (light theme).
 * `theme.dark.tabs.border.color`: The tabs border color (dark theme).
 * `theme.light.tabs.border.color`: The tabs border color (light theme).
 * `theme.dark.tabs.toolbox.background.color`: The tabs toolbox background color (top right bar, dark theme).
 * `theme.light.tabs.toolbox.background.color`: The tabs toolbox background color (top right bar, light theme).
+* `theme.tabs.font.size`: The tabs font size.
 * `theme.statusbar.background.color`: The status bar background color.
 * `theme.statusbar.backgroundRaw.color`: The status bar background color (no project).
 * `theme.statusbar.backgroundDebug.color`: The status bar background color (debug mode).
 * `theme.statusbar.text.color`: The status bar text color (will be applied to icons as well).
+* `theme.statusbar.font.size`: The status bar font size.
 * `theme.statusbar.smiley.enabled`: Display or hide the status bar smiley face.
 * `theme.integrity.enabled`: Enable or disable the VS code integrity check ([Unsupported] mode).
 

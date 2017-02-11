@@ -65,6 +65,11 @@
                     "default": "#f3f3f3",
                     "description": "The file tree background color (light theme)."
                 },
+                "theme.filetree.font.size": {
+                    "type": "string",
+                    "default": "13px",
+                    "description": "The file tree font size."
+                },
                 "theme.dark.tabs.background.color": {
                     "type": "string",
                     "default": "#252526",
@@ -95,6 +100,11 @@
                     "default": "#f3f3f3",
                     "description": "The tabs toolbox background color (top right bar, light theme)."
                 },
+                "theme.tabs.font.size": {
+                    "type": "string",
+                    "default": "13px",
+                    "description": "The tabs font size."
+                },
                 "theme.statusbar.background.color": {
                     "type": "string",
                     "default": "#007acc",
@@ -114,6 +124,11 @@
                     "type": "string",
                     "default": "#fff",
                     "description": "The status bar text color."
+                },
+                "theme.statusbar.font.size": {
+                    "type": "string",
+                    "default": "12px",
+                    "description": "The status bar font size."
                 },
                 "theme.statusbar.smiley.enabled": {
                     "type": "boolean",
