@@ -81,3 +81,8 @@ Fixed minor issues
 ### 1.1.2
 
 Add support for TypeScript statusbar extension (match text color)
+
+### 1.1.3
+
+Add font size support for file tree, statusbar and tabs
+
