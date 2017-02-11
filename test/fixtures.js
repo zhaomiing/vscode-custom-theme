@@ -1,9 +1,11 @@
 'use strict'
 
 const color = 'rainbow'
+const fontSize = '99px'
 
 module.exports = {
   color,
+  fontSize,
   settings: {
     dark: {
       activitybar: {
@@ -55,6 +57,16 @@ module.exports = {
         }
       }
     },
+    filetree: {
+      font: {
+        size: fontSize
+      }
+    },
+    tabs: {
+      font: {
+        size: fontSize
+      }
+    },
     statusbar: {
       background: {
         color
@@ -67,6 +79,9 @@ module.exports = {
       },
       text: {
         color
+      },
+      font: {
+        size: fontSize
       },
       smiley: {
         enabled: true
